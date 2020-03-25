@@ -1,0 +1,176 @@
+.navbars{
+    background-color:rgb(66, 63, 59);
+    text-align:left;
+   height:100px;
+   margin-left: 0px;
+
+}
+
+.firstpart{
+    background-image:url(sssss.jpg);
+    margin-top:px;
+    cholor:rgb(241, 239, 100)
+   
+   
+}
+ul#navmenus li{
+     display:inline;
+     font-weight: 20px;
+     font-size: 20px;
+     margin-right:20px;
+     text-decoration:none;
+     text-align:left;
+}
+
+.segondpart{
+    background-image:url(z1.jpg);
+    margin-top:-5px;
+    margin-bottom:0px;
+   
+}
+.thirdpart{
+    background-image:url(z1.jpg);
+    margin-top:-1px;
+    margin-bottom:9px;
+}
+.lastnavbar{
+    background-color:rgb(66, 63, 59);
+    text-align:center;
+    
+    border-radius:5px;
+    margin-bottom: -20px;
+
+}
+.zer{
+    color:rgb(240, 130, 240);
+    background-image:url("b.jpg");
+    background-attachment:fixed;
+    font-size:25px;
+    text-align:center;
+   
+   
+    
+   
+}
+.zera{
+    color:rgb(156, 189, 38);
+    background-image:url("b.jpg");
+    background-attachment:fixed;
+    font-size:25px;
+    text-align:center;
+   
+    
+
+}
+.zerb{
+    color:rgb(71, 192, 60);
+    background-image:url("b.jpg");
+    background-attachment:fixed;
+    font-size:25px;
+    text-align:center;
+   
+ 
+   
+}
+.premier{
+    color:rgb(30, 218, 202);
+    font-size:35px;
+    text-align:center;
+    
+     
+     margin-top:0px;
+}
+.ligne{
+    width:100%;
+    height:10px;
+    margin-top:-5px;
+    margin-bottom:-5px; 
+}
+.entre0{
+    height:5px;
+    width:15%;    
+}
+.entre1{
+    height:5px;
+   width:70%;
+    background-color:rgb(30, 218, 202); 
+}
+.entre2{
+    height:5px;
+   width:15%;
+    
+    
+}
+.uno{
+    background-image:url("b.jpg");
+    background-attachment:fixed;
+}
+.imgprojct{
+    text-align:right;
+    margin-bottom:px;
+    margin-top:-30px;
+   
+    margin-right:25px;
+}
+
+#icons:hover{
+    -webkit-transform:scale(1.4);
+    transform: scale(1.4);
+    
+
+}
+#icon1:hover{
+    -webkit-transform:scale(1.4);
+    transform: scale(1.4);
+  
+
+}
+.moi{
+    
+  
+    
+    background-repeat:no-repeat;
+    text-align:center;
+    margin-top:-00px;
+    margin-bottom:-30px;
+
+}
+.zerb1x{
+    background-color:whitesmoke;
+    height:100%;
+    width:80%;
+    text-align:center;
+    background-origin:shadow 10%; yellow
+   
+}
+.zerb1xx{
+    background-image:url("msl.jpg");
+    height:100%;
+    width:60%;
+    text-align:center;
+    font-size:18px;
+    color:black;
+  
+   
+}
+.goup:hover{
+        -webkit-transform:scale(1.2);
+        transform:scale(1.2);
+        padding-bottom: 5px;
+
+}
+.goup1:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    text-align:right;
+}
+.ese{
+    text-align:right;
+    padding:10px;
+   
+}
+.dsfdf{
+    color:rgb(241, 168, 241);
+}
+
+
