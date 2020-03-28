@@ -20,6 +20,7 @@ ul#navmenus li{
      margin-right:20px;
      text-decoration:none;
      text-align:left;
+   
 }
 
 .segondpart{
@@ -169,8 +170,17 @@ ul#navmenus li{
     padding:10px;
    
 }
+#langue{
+ 
+    
+    margin-top:-80px;
+    
+    
+    
+}
 .dsfdf{
     color:rgb(241, 168, 241);
 }
+
 
 
