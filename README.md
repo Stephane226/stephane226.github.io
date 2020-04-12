@@ -12,4 +12,7 @@ I am still working on the project and it will be a pleasure for me to get some a
 You can contact me by  <a href="mailto:elmasaakiano@gmail.com" style="color:green">mailing me  </a> for any advice or support <br>
 <br>
 Thank you for have reading me.
+<br>
+## LICENSE 
+[GNU General Public License v3.0](https://github.com/Stephane226/stephane226.github.io/blob/master/LICENSE)
 
