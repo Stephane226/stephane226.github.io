@@ -18,16 +18,14 @@ function showeventb(){
 }
 
 function turncolorto(){
-                       
-           document.getElementById('interbord0').style.backgroundColor = 'yellow' 
-           document.getElementById('interbord2').style.backgroundColor = 'yellow' 
-
+           bgColorToYellow("interbord0");
+           bgColorToYellow("interbord2");
            document.getElementById('er').style.color = 'rgb(255, 255, 0)'  
                    }
 function checkcolorto(){
             document.getElementById('interbord0').style.backgroundColor = 'rgb(30, 218, 202)' 
-            document.getElementById('interbord2').style.backgroundColor = 'rgb(30, 218, 202)'
-            document.getElementById('er').style.color = 'rgb(253, 253, 177)'  
+            document.getElementById('interbord2').style.backgroundColor = 'rgb(30, 218, 202)'          
+            bgColorToYellowLight("er");
 }
 
 function turncolorto1(){ 
@@ -55,3 +53,12 @@ function turncolorto2(){
                         document.getElementById('interbord2').style.backgroundColor = 'rgb(30, 218, 202)'
                         document.getElementById('er2').style.color = 'rgb(241, 168, 241)' 
             }
+            
+// seçilen elementin arkaplanı sarı yap
+function bgColorToYellow(id){
+    document.getElementById(id).style.backgroundColor = 'yellow'; 
+}
+// seçilen elementin arkaplanı açık sarı yap
+function bgColorToYellowLight(id){
+    document.getElementById(id).style.color = 'rgb(253, 253, 177)';
+}
