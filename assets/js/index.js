@@ -60,8 +60,8 @@ function checkcolorto2() {
 // seçilen elementin arkaplanı sarı yap
 function bgColorToYellow(id){
     document.getElementById(id).style.backgroundColor = 'yellow';
-    console.log("bgColorToYellow() function is run on \""+id+"\" element");
 }
+
 // seçilen elementin arkaplanı açık sarı yap
 function bgColorToYellowLight(id){
     document.getElementById(id).style.color = 'rgb(253, 253, 177)';
