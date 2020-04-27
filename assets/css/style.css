@@ -8,8 +8,7 @@
 
 .firstpart{
     background-image:url(../img/sssss.jpg);
-    //margin-top:px;
-    cholor:rgb(241, 239, 100)
+   
    
    
 }
@@ -37,8 +36,7 @@ ul#navmenus li{
 .lastnavbar{
     background-color:rgb(66, 63, 59);
     text-align:center;
-    
-    //border-radius:;
+  
     margin-bottom: -20px;
 
 }
@@ -59,17 +57,16 @@ ul#navmenus li{
     background-attachment:fixed;
     font-size:25px;
     text-align: center;
-    padding-left: 26px;
+    padding-left: 31px;
 
    
     
 
 }
 .zerb{
-    color:rgb(71, 192, 60);
+    
     background-image:url("../img/b.jpg");
     background-attachment:fixed;
-    font-size:25px;
     text-align:center;
    
  
@@ -110,7 +107,7 @@ ul#navmenus li{
 }
 .imgprojct{
     text-align:right;
-    //margin-bottom:px;
+   
     margin-top:-30px;
    
     margin-right:25px;
@@ -143,7 +140,7 @@ ul#navmenus li{
     height:100%;
     width:80%;
     text-align:center;
-    //background-origin:shadow 10%; //yellow
+    
    
 }
 .zerb1xx{

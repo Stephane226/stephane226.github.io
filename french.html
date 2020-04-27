@@ -1,144 +1,140 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>
-        Personal Blog
-    </title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
-</head>
-<body>
+<!DOCTYPE html/>
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <title>
+           Blog Personel
+       </title>
+       <link rel="stylesheet" href="assets/css/style.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </head>
+    <body>
 
-<div class="navbars">
-    <br>
+        <div class="navbars">
+            <br>
+ 
+        <ul id="navmenus"> 
+                
+     
+            <li> 
+                <strong> <a href="#srvc"style="text-decoration:none;color:rgb(253, 253, 177)"; id="er"; 
+                onclick="showeventa()";
+                onmouseover="turncolorto()";
+                onmouseout="checkcolorto()">
 
-    <ul id="navmenus">
-
-
-        <li>
-            <strong>
-                <a href="#srvc" style="text-decoration:none;color:rgb(253, 253, 177)" id="er"
-                   onclick="showeventa()"
-                   onmouseover="turncolorto()"
-                   onmouseout="checkcolorto()">
                     Services
-                </a>
-            </strong>
-        </li>
-        <li>
-            <strong>
-                <a href="#zedkas" style="text-decoration:none;color:rgb(100, 158, 100)" onclick="showeventb()"
-                   id="er1"
-                   onmouseover="turncolorto1()"
-                   onmouseout="checkcolorto1()">
-                    Blog
-                </a>
-            </strong>
-        </li>
-        <li>
-            <strong>
-                <a href="#zedkass" style="text-decoration:none;color:rgb(241, 168, 241)" onclick="Showeventt()"
-                   id="er2"
-                   onmouseover="turncolorto2()"
-                   onmouseout="checkcolorto2()">
-                    Know Me
-                </a>
-            </strong>
-        </li>
-
-
-    </ul>
-    <br>
-
-
-</div>
-
-<table class="ligne">
-    <tr>
+                 </a>
+                </strong>
+            </li>
+            <li> 
+                <strong> <a href="#zedkas" style="text-decoration:none;color:rgb(100, 158, 100)"; onclick="showeventb()" id="er1"
+                    onmouseover="turncolorto1()";
+                    onmouseout="checkcolorto1()">
+                    Blog </a></strong>
+            </li>
+            <li> 
+                <strong> <a href="#zedkass"style="text-decoration:none;color:rgb(241, 168, 241)"; onclick="Showeventt()" id="er2"
+                    onmouseover="turncolorto2()";
+                    onmouseout="checkcolorto2()">
+                    Qui Suis-Je?</a></strong>
+            </li>
+        </ul>
+        <br>
+<br></div>
+    <table class="ligne">
+        <tr>
         <td class="entre0" id="interbord0">
+
         </td>
         <td class="entre1" id="inter">
+
         </td>
         <td class="entre2" id="interbord2">
             <div class="d-flex" id="langue">
                 <div class="btn-group">
                     <button type="button" class="btn btn-secondary dropdown-toggle"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        FR
+                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   
+                     FR
                     </button>
                     <div class="dropdown-menu dropdown-menu-right" style="background-color: cadetblue;">
-                        <a href="french.html" style="text-decoration:none">
-                            <button class="dropdown-item" type="button">French</button>
-                        </a>
-                        <a href="index.html" style="text-decoration:none">
-                            <button class="dropdown-item" type="button">English</button>
-                        </a>
-                        <a href="turkish.html" style="text-decoration:none">
-                            <button class="dropdown-item" type="button">Turkish</button>
-                        </a>
+                     <a href="french.html" style="text-decoration:none"> <button class="dropdown-item" type="button">French</button></a>
+                     <a href="index.html" style="text-decoration:none"><button class="dropdown-item" type="button">English</button></a>
+                        <a href="turkish.html" style="text-decoration:none"><button class="dropdown-item" type="button">Turkish</button></a>
                     </div>
+                  </div>
                 </div>
-            </div>
         </td>
     </tr>
-</table>
-
-<div class="uno">
-    <br>
-    <div class="premier">
-        jai toujours voulu etre l'exception
-    </div>
-    <div class="imgprojct">
-        <a href="">
-            <img src="assets/img/icons/prjct.png" width="70px" height="70px" id="icon1">
+    </table>
+        <div class="uno">
+        <br>
+        <div class="premier" >
+       
+               J'ai Toujours Essayé De Faire La Différence 
+         
+          </div>
+          <div  class="imgprojct" >
+              <a href="">
+          <img src="assets/img/icons/prjct.png" width="70px" height="70px" id="icon1">
         </a>
-    </div>
-    <br>
-</div>
+        </div>
+        <br>
+        </div>
+   
+      
+        <div class="firstpart">
+         
+         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br> 
+          
+        </div> 
+        <div class="segondpart">
+           
+            <div  id="knowmeid" >
+            </div>
+           
+        </div> 
+       
+   
+        <div class="entre1">
 
-<div class="firstpart">
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</div>
+        </div>
+     
+   
 
-<div class="segondpart">
-    <div id="knowmeid">
-    </div>
-</div>
+        <div class="lastnavbar">
+            <br>
+        <div id="navmenu">     
+            
+               
+                    <a href="mailto:elmasaakiano@gmail.com" ;style="padding-right:8px">
+                        <img src="assets/img/icons/mailicon.png" width="40px" height="40px" target="_blank" alt="_Mail Me" id="icons">
+                     </a>
+             
+           
+           
+                     <a href="https://www.instagram.com/web_mastery/?hl=en"style="padding-right:">
+                        <img src="assets/img/icons/g.png" width="40px" height="40px" target="_blank" alt="_Instagram" id="icons">
+                     </a>
+                    
+                    
+            
+                     <a href="https://www.linkedin.com/in/masaaki-stephane-benon-617478181/"style="">
+                        <img src="assets/img/icons/linkedinicon.png" width="44px" height="42px" target="_blank" alt="_Linkedin" id="icons">
+                    </a>
+                
+           </div>
+           <br>
+           </div>
+        
+ 
 
-<div class="entre1">
-</div>
-
-<div class="lastnavbar">
-    <br>
-    <div id="navmenu">
-        <a href="mailto:elmasaakiano@gmail.com" style="padding-right:px">
-            <img src="assets/img/icons/mailicon.png" width="40px" height="40px" target="_blank" alt="_Mail Me"
-                 id="icons">
-        </a>
-        <a href="https://www.instagram.com/web_mastery/?hl=en" style="padding-right:">
-            <img src="assets/img/icons/g.png" width="40px" height="40px" target="_blank" alt="_Instagram" id="icons">
-        </a>
-        <a href="https://www.linkedin.com/in/masaaki-stephane-benon-617478181/" style="">
-            <img src="assets/img/icons/linkedinicon.png" width="44px" height="42px" target="_blank" alt="_Linkedin"
-                 id="icons">
-        </a>
-    </div>
-    <br>
-</div>
-
-<script src='assets/js/french.js'></script>
-
-</body>
+        </div>
+        <script src='assets/js/french.js'></script> 
+    </body>
 </html>
