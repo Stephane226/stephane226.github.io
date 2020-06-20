@@ -218,9 +218,23 @@ footer .footer-quick-links {
     padding: 1.5rem;
 }
 
-footer {
-    padding: 4rem 0;
+
+.moreknow:hover{
+    color:rgb(233, 229, 229);
+    cursor:pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -229,12 +243,10 @@ footer {
 footer {
     background: #333;
     padding: 4rem 0;
-   
-   
 }
 
 footer .flex {
-    padding-bottom: 1rem;
+    padding-bottom: 6rem;
     border-bottom: 1px solid #777;
 }
 
@@ -298,13 +310,16 @@ footer .footer-subscribe input {
     color: #fff;
     box-sizing: border-box;
     width: 80%;
-    outline: none;
-}
+    outline:none;
 
+}
+footer button.right-rounded:hover {
+    background: #f69314;
+}
 footer button.right-rounded {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    background: #81cac0;
+    background: #95ece5;
     font-size: 16px;
     color: #000;
     padding: 10px 30px 9px;
@@ -315,9 +330,7 @@ footer button.right-rounded {
     right: 0;
 }
 
-footer button.right-rounded:hover {
-    background: #fff;
-}
+
 
 footer .footer-subscribe ul {
     list-style-type: none;
@@ -344,7 +357,8 @@ footer .footer-subscribe ul li a:hover {
 }
 
 footer small {
-    margin-top: 3rem;
+    margin-top: 1rem;
+    margin-bottom: -3rem;
     font-size: 1rem;
     display: block;
     text-align: center;
@@ -358,3 +372,53 @@ footer small a {
 footer small a:hover {
     color: #fff;
 }
+/* end: footer styles */
+
+/* start: media queries */
+@media (max-width: 991px) {
+
+
+    #address-container {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    footer {
+        padding: 6rem 0;
+    }
+
+    footer .flex {
+        flex-wrap: wrap;
+    }
+
+    footer .flex > div {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    footer .flex > div:first-child {
+        margin-top: 0;
+    }
+
+    footer .footer-about p {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    footer .footer-subscribe input {
+        width: 90%;
+    }
+
+    footer h5.follow-us {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    
+
+    footer {
+        padding: 4rem 0;
+    }
+}
+
