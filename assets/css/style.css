@@ -7,9 +7,25 @@
 }
 
 .firstpart{ 
-    background-image:url('../img/as.jpg');
-    background-size: 1600px 600px;
+    background-image:url('../img/ji.jpg');
+    opacity:0.9;
+  background-repeat: no-repeat;
+  background-size: 1500px 500px ;
+  
    
+}
+.gros{
+    margin:0 auto;
+    width:40%;
+    height:40%;
+    background-color:rgb(25, 134, 129);
+    border:none;
+    text-align:center;
+    color:#333;
+    font-size:25px;
+    box-shadow:2px 3px 2px black;
+    font-weight:bold;
+
 }
 
 ul#navmenus li{
@@ -73,9 +89,10 @@ ul#navmenus li{
    
 }
 .premier{
-    color:rgb(30, 218, 202);
-    font-size:35px;
+    color:#333;
+    font-size:23px;
     text-align:center;
+    padding:20px;
     
      
      margin-top:0px;
