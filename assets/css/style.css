@@ -6,12 +6,12 @@
 
 }
 
-.firstpart{
-    background-image:url(../img/sssss.jpg);
-   
-   
+.firstpart{ 
+    background-image:url('../img/as.jpg');
+    background-size: 1600px 600px;
    
 }
+
 ul#navmenus li{
      display:inline;
      font-weight: 20px;
