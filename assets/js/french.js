@@ -25,12 +25,12 @@ function turncolorto(){
            document.getElementById('interbord0').style.backgroundColor = 'yellow' 
            document.getElementById('interbord2').style.backgroundColor = 'yellow' 
 
-           document.getElementById('er').style.color = 'rgb(255, 255, 0)'  
+           document.getElementById('er').style.color = 'rgb(150, 243, 238)'  
                    }
 function checkcolorto(){
             document.getElementById('interbord0').style.backgroundColor = 'rgb(30, 218, 202)' 
             document.getElementById('interbord2').style.backgroundColor = 'rgb(30, 218, 202)'
-            document.getElementById('er').style.color = 'rgb(253, 253, 177)'  
+            document.getElementById('er').style.color = 'rgb(8, 146, 146)'  
 }
 
 function turncolorto1(){ 

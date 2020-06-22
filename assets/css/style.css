@@ -5,14 +5,43 @@
    margin-left: 0px;
 
 }
+.add1{
+    color:rgb(150, 243, 238);
+}
 
 .firstpart{ 
-    background-image:url('../img/ji.jpg');
+    /*background-image:url('../img/ji.jpg');
     opacity:0.9;
   background-repeat: no-repeat;
-  background-size: 1500px 500px ;
+  background-size: 1500px 500px ;*/
+  background-color:#333;
   
    
+}
+
+.fab:hover{
+    color:rgb(52, 189, 199);
+}
+.i:hover{
+    color:rgb(52, 189, 199);
+}
+.fas:hover{
+    color:rgb(52, 189, 199);
+}
+.fab{
+    font-size:20px;
+
+
+}
+.i{
+    font-size:20px;
+
+
+}
+.fas{
+    font-size:20px;
+
+
 }
 .gros{
     margin:0 auto;
