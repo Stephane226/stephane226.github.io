@@ -139,7 +139,7 @@ ul#navmenus li{
 .entre1{
     height:5px;
    width:70%;
-    background-color:rgb(30, 218, 202); 
+    background-color:rgba(14, 131, 131, 0.4); 
 }
 .entre2{
     height:5px;
@@ -169,6 +169,7 @@ ul#navmenus li{
 }
 #icon1{
     margin-left:80%;
+    
 }
 #icon1:hover{
     -webkit-transform:scale(1.4);
