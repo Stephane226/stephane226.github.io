@@ -168,7 +168,9 @@ ul#navmenus li{
 
 }
 #icon1{
-    margin-left:80%;
+    float:right;
+    margin-top:-65px;
+    margin-right:10px;
     
 }
 #icon1:hover{
