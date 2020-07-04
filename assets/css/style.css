@@ -10,13 +10,13 @@
 }
 
 .firstpart{ 
-    background-image:url('../img/bgi.jpeg');
+    background-image:url('../img/222.jpg');
     background-color:rgb(231, 231, 231);
  
   background-repeat: no-repeat;
-  background-size: 1500px 500px ;*/
+  background-size: auto 500px;
   background-color:#333;
-  background-color:rgb(231, 231, 231);
+  
   
    
 }
