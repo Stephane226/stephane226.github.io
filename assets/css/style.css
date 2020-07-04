@@ -11,10 +11,11 @@
 
 .firstpart{ 
     background-image:url('../img/222.jpg');
+    opacity:0.5;
     background-color:rgb(231, 231, 231);
  
   background-repeat: no-repeat;
-  background-size: auto 500px;
+  background-size: 1500px 500px;
   background-color:#333;
   
   
