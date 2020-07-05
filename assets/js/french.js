@@ -64,3 +64,11 @@ function turncolorto2(){
                         document.getElementById('interbord2').style.backgroundColor = 'rgb(30, 218, 202)'
                         document.getElementById('er2').style.color = 'rgb(8, 146, 146)' 
             }
+
+         
+          function Showeventp() {
+            var projects = document.getElementById("allproject").innerHTML;
+            //projects.style.display = "block";
+            document.getElementById("knowmeid").innerHTML = projects   
+          }
+
