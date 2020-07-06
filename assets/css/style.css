@@ -373,6 +373,11 @@ footer .footer-subscribe input {
     outline:none;
 
 }
+.btn-primary {
+    color: #fff;
+    background-color: #29b3c9;
+    border-color: #007bff;
+    }
 footer button.right-rounded:hover {
     background: #f69314;
 }
