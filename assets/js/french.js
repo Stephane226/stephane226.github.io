@@ -28,44 +28,42 @@ function Showeventp() {
 
 function turncolorto(){
                        
-           document.getElementById('interbord0').style.backgroundColor = 'white' 
-           document.getElementById('interbord2').style.backgroundColor = 'white' 
+    document.getElementById('interbord0').style.backgroundColor = 'white' 
+    document.getElementById('interbord2').style.backgroundColor = 'white' 
 
-           document.getElementById('er').style.color = 'rgb(150, 243, 238)'  
-                   }
+    document.getElementById('er').style.color = 'rgb(150, 243, 238)'  
+            }
 function checkcolorto(){
-            document.getElementById('interbord0').style.backgroundColor = 'rgb(30, 218, 202)' 
-            document.getElementById('interbord2').style.backgroundColor = 'rgb(30, 218, 202)'
-            document.getElementById('er').style.color = 'rgb(8, 146, 146)'  
+     document.getElementById('interbord0').style.backgroundColor = '' 
+     document.getElementById('interbord2').style.backgroundColor = '' 
+     document.getElementById('er').style.color = 'rgb(195, 212, 212)'  
 }
 
 function turncolorto1(){ 
-                       
-                       document.getElementById('interbord0').style.backgroundColor = 'white'
-                       document.getElementById('interbord2').style.backgroundColor = 'white'
-                       document.getElementById('er1').style.color = 'rgb(150, 243, 238)'  
-                     
-            }
-            function checkcolorto1(){
-                        document.getElementById('interbord0').style.backgroundColor = 'rgb(30, 218, 202)' 
-                        document.getElementById('interbord2').style.backgroundColor = 'rgb(30, 218, 202)' 
-                        document.getElementById('er1').style.color = 'rgb(8, 146, 146)'
-            }
-            
+                
+                document.getElementById('interbord0').style.backgroundColor = 'white'
+                document.getElementById('interbord2').style.backgroundColor = 'white'
+                document.getElementById('er1').style.color = 'rgb(150, 243, 238)'  
+              
+     }
+     function checkcolorto1(){
+                 document.getElementById('interbord0').style.backgroundColor = '' 
+                 document.getElementById('interbord2').style.backgroundColor = ''
+                 document.getElementById('er1').style.color = 'rgb(195, 212, 212)'
+     }
+     
 function turncolorto2(){
-                       
-                       document.getElementById('interbord0').style.backgroundColor = 'white'
-                       document.getElementById('interbord2').style.backgroundColor = 'white' 
-                       document.getElementById('er2').style.color = 'rgb(150, 243, 238)' 
-                     
-            }
-            function checkcolorto2(){
-                        document.getElementById('interbord0').style.backgroundColor = 'rgb(30, 218, 202)' 
-                        document.getElementById('interbord2').style.backgroundColor = 'rgb(30, 218, 202)'
-                        document.getElementById('er2').style.color = 'rgb(8, 146, 146)' 
-            }
-
-         
+                
+                document.getElementById('interbord0').style.backgroundColor = 'white'
+                document.getElementById('interbord2').style.backgroundColor = 'white' 
+                document.getElementById('er2').style.color = 'rgb(150, 243, 238)' 
+              
+     }
+     function checkcolorto2(){
+                 document.getElementById('interbord0').style.backgroundColor = '' 
+                 document.getElementById('interbord2').style.backgroundColor = ''
+                 document.getElementById('er2').style.color = 'rgb(195, 212, 212)' 
+     }
           function Showeventp() {
             var projects = document.getElementById("allproject").innerHTML;
             //projects.style.display = "block";
