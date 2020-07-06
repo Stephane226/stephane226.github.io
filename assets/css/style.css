@@ -142,7 +142,7 @@ ul#navmenus li{
 .entre1{
     height:5px;
    width:70%;
-    background-color:rgba(14, 131, 131, 0.4); 
+    background-color:rgba(61, 177, 231, 0.4); 
 }
 .entre2{
     height:5px;
@@ -361,7 +361,7 @@ footer .footer-subscribe {
 
 footer .footer-subscribe input {
     border-radius: 30px;
-    height: 43px;
+    height: 45px;
     font-family: "Roboto", "Helvetica", "Sans-serif";
     border: 1px solid #6c757d;
     background-color: transparent;
@@ -374,7 +374,7 @@ footer .footer-subscribe input {
 
 }
 footer button.right-rounded:hover {
-    background: #f69314;
+    background: #14aef6;
 }
 footer button.right-rounded {
     border-top-right-radius: 30px;
