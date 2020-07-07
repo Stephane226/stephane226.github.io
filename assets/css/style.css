@@ -190,7 +190,7 @@ ul#navmenus li{
 }
 .ulist ul li:hover{
        cursor:pointer;
-       background-color:rgba(44, 137, 165, 0.3);
+       background-color:rgb(97, 192, 216);
        
 
 }
