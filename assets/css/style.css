@@ -190,7 +190,7 @@ ul#navmenus li{
 }
 .ulist ul li:hover{
        cursor:pointer;
-       background-color:rgb(95, 205, 212);
+       background-color:rgba(44, 137, 165, 0.3);
        
 
 }
@@ -214,7 +214,15 @@ ul#navmenus li{
     margin:10px;
     box-shadow:3px 4px black;
     list-style: none;
+    width:90%;
+    height:50px;
+    font-size:13px;
+    color:white;
+    margin
 
+}
+.ulist{
+    margin:0 auto;
 }
 
 .moi{
