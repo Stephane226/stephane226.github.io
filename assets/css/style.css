@@ -182,6 +182,40 @@ ul#navmenus li{
   
 
 }
+.referanslogo{
+    margin:10px;
+    width:40px;
+    height:40px;
+    
+}
+.ulist ul li:hover{
+       cursor:pointer;
+       background-color:rgb(95, 205, 212);
+       
+
+}
+.projectsall table tr{
+    height:40px;
+    background-color:green;
+    margin:10px;
+    padding:10px;
+}
+.projectsall table tr td{
+   
+    background-color:rgb(158, 56, 124);
+    margin:10px;
+   
+}
+.ulist ul {
+    text-decoration:none
+}
+.ulist ul li{
+    background-color:rgb(31, 62, 77);
+    margin:10px;
+    box-shadow:3px 4px black;
+    list-style: none;
+
+}
 
 .moi{
     
