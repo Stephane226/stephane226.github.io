@@ -21,7 +21,7 @@ document.getElementById("knowmeid").innerHTML = knowmeid;
 }
 
 function Showeventp() {
-    var knowmeid = '<div class="zer" > <br><div class="moi"> <table style="text-align:center;width:100%;margin-top:-35px;margin-bottom:-20px;"> <tr> <td style="width:2%"></td> <td class="zerb1xx" id="zedkass"><h4>  </h4><div class="aboutme"><p>My name is Stephane. I am from Burkina Faso, and I live in Turkey.I am all about professional results to handle long-term collaborations. With more than Three years of experience; I work on translation, websites SEO and Web Design. I design with a focus on visual and interaction design.I build portfolios and websites based on a deep understanding of customers’ needs.I have worked for many projects about Web Design, SEO and Translation and ;accomplish customers’ needs has always been my first priority. <br> <br><img src="assets/img/moimeme.png" height="100px" width="100px"><br></td></p></div><td style="width:2%"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><a href="#er"><img src="assets/img/up.png" alt="go up"width="35px" height="35px" class="goup"> </a></td> </tr> </table> </div><br></div>'
+    var knowmeid = '
     document.getElementById("knowmeid").innerHTML = knowmeid
     document.getElementById('inter').style.backgroundColor = 'whitesmoke'  
 }
@@ -64,9 +64,5 @@ function turncolorto2(){
                  document.getElementById('interbord2').style.backgroundColor = ''
                  document.getElementById('er2').style.color = 'rgb(195, 212, 212)' 
      }
-          function Showeventp() {
-            var projects = document.getElementById("allproject").innerHTML;
-            //projects.style.display = "block";
-            document.getElementById("knowmeid").innerHTML = projects   
-          }
+       
 
