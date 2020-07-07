@@ -190,21 +190,14 @@ ul#navmenus li{
 }
 .ulist ul li:hover{
        cursor:pointer;
-       background-color:rgb(97, 192, 216);
+       background-color:rgba(61, 177, 231, 0.4);
+       height:51px;
+       color:black;
        
 
 }
-.projectsall table tr{
-    height:40px;
-    background-color:green;
-    margin:10px;
-    padding:10px;
-}
-.projectsall table tr td{
-   
-    background-color:rgb(158, 56, 124);
-    margin:10px;
-   
+#hideproject{
+    display:none;
 }
 .ulist ul {
     text-decoration:none
