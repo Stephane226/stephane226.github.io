@@ -518,4 +518,22 @@ footer small a:hover {
         padding: 4rem 0;
     }
 }
+.butdiv button{
+    width:75px;
+    height:40px;
+  
+    background-color:rgb(7, 124, 170);
+    color:white;
+    font-size:18px;
+    border:none;
+}
+.butdiv button:hover{
+    width:100px;
+    height:41px;
+    background-color:rgb(18, 185, 177);
+
+    font-size:19px;
+    border:1px solid rgb(252, 252, 252) ;
+  
+}
 
