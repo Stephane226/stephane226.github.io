@@ -614,7 +614,10 @@ footer small a:hover {
    
     background-image:url('../img/b.jpg')
 }
-
+.hoverimg:hover{
+    width:75px;
+    height:75px;
+}
 
 
 
