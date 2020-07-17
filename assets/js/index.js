@@ -52,6 +52,7 @@ function turncolorto2(){
                        document.getElementById('er2').style.color = 'rgb(150, 243, 238)' 
                      
             }
+            
             function checkcolorto2(){
                         document.getElementById('interbord0').style.backgroundColor = '' 
                         document.getElementById('interbord2').style.backgroundColor = ''

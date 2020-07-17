@@ -105,7 +105,7 @@ ul#navmenus li{
     background-attachment:fixed;
     font-size:25px;
     text-align: center;
-    padding-left: 31px;
+    
 
    
     
@@ -116,6 +116,7 @@ ul#navmenus li{
     background-image:url("../img/b.jpg");
     background-attachment:fixed;
     text-align:center;
+    font-size:12px;
    
  
    
@@ -536,4 +537,26 @@ footer small a:hover {
     border:1px solid rgb(252, 252, 252) ;
   
 }
+.orta{
+    width:95%;
+    margin:0 auto;
+}
 
+.scrl{
+  height:auto;
+  border:1px solid black;
+  display:flex;
+  overflow-x: auto;
+  
+  width:90%;
+ 
+  margin:0 auto;
+}
+.scrl .elementscrl{
+  
+   height:auto; 
+   margin:15px;
+   text-align:center;
+   
+   background-color;
+}
