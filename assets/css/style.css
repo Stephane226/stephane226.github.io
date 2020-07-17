@@ -568,7 +568,7 @@ footer small a:hover {
 .orta1{
     width:100%;
     margin:0 auto;
-    background-color: rgb(36, 38, 39);
+    background-color: #333;
 }
 
 .scrl1{
@@ -584,28 +584,29 @@ footer small a:hover {
 .scrl1 .elementscrl1{
   
    height:auto; 
-   margin:15px;
+   margin-left:4px;
+   margin-right:4px;
    text-align:center;
    
    background-color;
 }
 .zera11{
 
-    font-size:25px;
+    font-size:px;
     text-align: center;
 }
 .carre{
     width:150px;
-    height:120px;
+    height:70px;
    
 }
 .carrebig{
     width:150px;
-    height:170px;
+    height:auto;
 }
 .carretitles{
     font-size:13px;
-    color:black;
+    color:rgb(226, 223, 223);
     font-weight:bold;
    
 }
