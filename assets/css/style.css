@@ -411,12 +411,12 @@ footer .footer-subscribe input {
 
 }
 footer button.right-rounded:hover {
-    background: #14aef6;
+    background: #378f8a;
 }
 footer button.right-rounded {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    background:#95ece5;
+    background:rgb(41, 118, 148);
    /*background: #95ece5;*/
     font-size: 16px;
     color: #000;
