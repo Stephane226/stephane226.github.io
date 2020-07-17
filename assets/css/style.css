@@ -577,7 +577,7 @@ footer small a:hover {
   display:flex;
   overflow-x: auto;
   
-  width:60%;
+  width:80%;
  
   margin:0 auto;
 }
@@ -611,8 +611,7 @@ footer small a:hover {
    
 }
 .flo{
-    width:100%;
-    height:30px;
+   
     background-image:url('../img/b.jpg')
 }
 
