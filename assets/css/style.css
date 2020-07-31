@@ -10,7 +10,7 @@
 }
 
 .firstpart{ 
-    background-image:url('../img/bbg3.jpg');
+    background-image:url('../img/basic_office_supplies-2.jpeg');
     background-attachment: fixed;
     opacity:;
     background-color:rgb(144, 243, 238);
@@ -569,7 +569,7 @@ footer small a:hover {
 .orta1{
     width:100%;
     margin:0 auto;
-    background-color:rgb(78, 236, 241);
+    background-color:whitesmoke;
     color:black;
 }
 
