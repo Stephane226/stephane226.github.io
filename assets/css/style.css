@@ -417,7 +417,7 @@ footer button.right-rounded:hover {
 footer button.right-rounded {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    background:rgb(78, 236, 241);
+    background:whitesmoke;
    /*background: #95ece5;*/
     font-size: 16px;
     color: #000;
