@@ -14,7 +14,7 @@
     background-attachment: fixed;
     opacity:;
     background-color:rgb(144, 243, 238);
- 
+ background-position: center;
   background-repeat: no-repeat;
   background-size:;
   background-color:#333;
@@ -570,6 +570,7 @@ footer small a:hover {
     width:100%;
     margin:0 auto;
     background-color:whitesmoke;
+    
     color:black;
 }
 
