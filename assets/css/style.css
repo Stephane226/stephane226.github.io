@@ -1,8 +1,9 @@
 .navbars{
-    background-color:rgb(66, 63, 59);
+    background-color:white;
     text-align:left;
    height:100px;
    margin-left: 0px;
+   rgb(66, 63, 59)
 
 }
 .add1{
@@ -569,7 +570,7 @@ footer small a:hover {
 .orta1{
     width:100%;
     margin:0 auto;
-    background-color:whitesmoke;
+    background-color:white;
     
     color:black;
 }
