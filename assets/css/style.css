@@ -16,7 +16,7 @@
     background-color:rgb(144, 243, 238);
  
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size:;
   background-color:#333;
   
   
@@ -417,7 +417,7 @@ footer button.right-rounded:hover {
 footer button.right-rounded {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    background:rgb(41, 118, 148);
+    background:rgb(78, 236, 241);
    /*background: #95ece5;*/
     font-size: 16px;
     color: #000;
@@ -569,7 +569,8 @@ footer small a:hover {
 .orta1{
     width:100%;
     margin:0 auto;
-    background-color: rgb(41, 118, 148);
+    background-color:rgb(78, 236, 241);
+    color:black;
 }
 
 .scrl1{
@@ -607,7 +608,7 @@ footer small a:hover {
 }
 .carretitles{
     font-size:13px;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     font-weight:bold;
    
 }
