@@ -561,7 +561,7 @@ footer small a:hover {
   
 }
 .orta{
-    width:100%;
+    width:83%;
     margin:0 auto;
 }
 
@@ -571,7 +571,7 @@ footer small a:hover {
   display:flex;
   overflow-x: auto;
   
-  width:90%;
+  width:100%;
  
   margin:0 auto;
 }
