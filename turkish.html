@@ -29,7 +29,7 @@
     <table>
         <tr>
             <td class="" style=" height:75px;width:30%;
-            background-color:rgb(230, 230, 230)"> <a href="#srvc" style="text-decoration:none;font-size:14px;color:rgb(0, 0, 0)" id="er"
+            background-color:#333"> <a href="#srvc" style="text-decoration:none;font-size:14px;color:rgb(255, 255, 255)" id="er"
                 onclick="showeventa()"
                 onmouseover="turncolorto()"
                 onmouseout="checkcolorto()">
@@ -37,12 +37,12 @@
                 <i class="fab fa-steam-symbol"></i> Hizmetler
                  </a></td>
             <td class=""  style=" height:75px;width:30%;
-            background-color:rgb(255, 255, 255)"><a href="#zedkas" style="text-decoration:none;font-size:14px;color:rgb(5, 5, 5)" onclick="showeventb()" id="er1"
+            background-color:#333"><a href="#zedkas" style="text-decoration:none;font-size:14px;color:rgb(255, 255, 255)" onclick="showeventb()" id="er1"
                 onmouseover="turncolorto1()"
                 onmouseout="checkcolorto1()">
                 <i class="fas fa-caret-down"></i> Blog </a></td>
             <td class="" style=" height:75px;width:30%;
-            background-color:rgb(216, 216, 216)"><a href="#zedkass" style="text-decoration:none;font-size:14px;color:rgb(0, 0, 0)" onclick="Showeventt()" id="er2"
+            background-color:#333"><a href="#zedkass" style="text-decoration:none;font-size:14px;color:rgb(255, 255, 255)" onclick="Showeventt()" id="er2"
                 onmouseover="turncolorto2()"
                 onmouseout="checkcolorto2()"
                 >
@@ -213,10 +213,23 @@ height:40px;border-radius:6px;box-shadow:0 5px 10px 0 rgba(37, 127, 252, 0.5);bo
          <br><br><br><br><br><br><br>
           
         </div> 
+        <div class="welcome">
+            <table style="width:90%;text-align:center;margin:0 auto">
+                <tr>
+                    <td style="width:30%"><i class="fas fa-business-time" style="font-size:40px;"></i><p>Tercümenizi kendim yaparım. Mümkün olan  </p></td>
+                    <td style="width:30%"><i class="fas fa-user-shield" style="font-size:40px;"></i><p>Tercümenizi kendim yaparım. Mümkün</p></td>
+                    <td style="width:30%"><i class="fas fa-business-time" style="font-size:40px;"></i><p>
+                     çeviri hizmetini sunabilmek </p></td>
+                 </tr>
+            </table>
+             </div>
         <div class="segondpart">
+          
            
             <div  id="knowmeid" >
+               
                 <div class="zera" id="xb"> <span style="color:black;margin-bottom:1px;font-size:1px;" id="srvc">.</span> 
+                    
                     <div class="orta"> 
                     <div class="scrl"> 
                         <div class="elementscrl"> 
@@ -459,11 +472,19 @@ height:40px;border-radius:6px;box-shadow:0 5px 10px 0 rgba(37, 127, 252, 0.5);bo
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-6">
+          <div class="form-group col-md-3">
+            <label for="inputCity">Ülke</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-3">
             <label for="inputCity">Şehir</label>
             <input type="text" class="form-control" id="inputCity">
           </div>
-       
+          <div class="form-group col-md-3">
+            <label for="inputCity">Şirket</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+
           <div class="form-group col-md-3">
             <label for="inputZip">Telefon Numaranız</label>
             <input type="text" class="form-control" id="inputZip">
