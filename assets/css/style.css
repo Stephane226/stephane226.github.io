@@ -675,8 +675,10 @@ input[type="textarea"]{
 .navig{
     background-color:rgb(238, 234, 234);
     height:70px;
-    width:100%
+    width:100%;
+    
 }
+
 .navig table{
     width:100%;
 
@@ -694,6 +696,7 @@ input[type="textarea"]{
   
     
 }
+
 /*dropdown languages*/
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
