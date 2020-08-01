@@ -675,7 +675,7 @@ input[type="textarea"]{
 .navig{
     background-color:rgb(238, 234, 234);
     height:70px;
-    width:100%;
+    width:98%;
     
 }
 
@@ -692,8 +692,6 @@ input[type="textarea"]{
     text-align:center;
     font-size:15px;
     color:black;
-    
-  
     
 }
 
