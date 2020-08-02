@@ -38,21 +38,13 @@ body{
 .fas:hover{
     color:rgb(52, 189, 199);
 }
-.fab{
-    font-size:20px;
 
-
-}
 .i{
     font-size:20px;
 
 
 }
-.fas{
-    font-size:20px;
 
-
-}
 .gros{
     margin:0 auto;
     width:40%;
@@ -771,6 +763,7 @@ input[type="textarea"]{
     width:100%;
     height:100px;
     background-color:whitesmoke;
+    box-shadow:150px 0px 150px 0px rgb(0, 0, 0);
  
     padding:10px;
    
