@@ -514,35 +514,38 @@ footer small a:hover {
     width:75px;
     height:40px;
   
-    background-color:rgb(59, 209, 209);
+    background-color:rgb(105, 104, 104);
     color:white;
     font-size:18px;
     border:none;
+    outline:none;
 }
 .butdivv button{
     width:100px;
     height:40px;
   
-    background-color:rgb(59, 209, 209);
+    background-color:#333;
     color:white;
     font-size:15px;
     border:none;
     margin:7px;
+    outline:none;
 }
 .butdivv button:hover{
-    width:120px;
-    height:40px;
   
-    background-color:orange;
+    background-color:rgb(59, 209, 209);
+    color:black;
+    background-color:rgb(59, 209, 209);
+    
+    box-shadow:0 2px 3px 0 rgb(72, 73, 73);
    
 }
 .butdiv button:hover{
-    width:100px;
-    height:45px;
-    background-color:orange;
-    border-radius:5px;
-    font-size:19px;
-    border:1px solid rgb(252, 252, 252) ;
+  color:black;
+    background-color:rgb(59, 209, 209);
+    
+    box-shadow:0 2px 3px 0 rgb(72, 73, 73);
+   
   
 }
 .orta{
