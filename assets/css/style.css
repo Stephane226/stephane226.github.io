@@ -780,4 +780,6 @@ input[type="textarea"]{
     width: 100%;
     background-image:url("../img/bn.jpg");
     background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
 }
