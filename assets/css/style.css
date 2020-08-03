@@ -60,13 +60,13 @@ body{
 
 
 .segondpart{
-    background-image:url(../img/z1.jpg);
+    
     margin-top:-25px;
     margin-bottom:0px;
    
 }
 .thirdpart{
-    background-image:url(../img/z1.jpg);
+  
     margin-top:-1px;
     margin-bottom:9px;
 }
@@ -569,6 +569,10 @@ footer small a:hover {
    margin:15px;
    text-align:center;
    
+}
+.tk{
+    box-shadow: 10px 0px 13px 0px black;
+    background-color:rgba(0, 0, 0, 0.562);
 }
 
 zerz{
