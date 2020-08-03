@@ -6,7 +6,7 @@
            Personal Blog
        </title>
        <link rel="stylesheet" href="assets/css/style.css">
-       
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -34,19 +34,19 @@
                         onmouseover="turncolorto()"
                         onmouseout="checkcolorto()">
         
-                        <i class="fab fa-steam-symbol"></i> Hizmetler
+                        <i class="fab fa-steam-symbol"></i><span onclick="sho1()"> Hizmetler</span>
                          </a></td>
                     <td class=""  style=" height:75px;width:30%;
                     "><a href="#zedkas" style="text-decoration:none;font-size:17px;color:rgb(255, 255, 255)" onclick="showeventb()" id="er1"
                         onmouseover="turncolorto1()"
                         onmouseout="checkcolorto1()">
-                        <i class="fas fa-caret-down"></i> Blog </a></td>
+                        <i class="fas fa-caret-down"></i><span onclick="hide1()"> Blog </span></a></td>
                     <td class="" style=" height:75px;width:30%;
                    "><a href="#zedkass" style="text-decoration:none;font-size:17px;color:rgb(255, 255, 255)" onclick="Showeventt()" id="er2"
                         onmouseover="turncolorto2()"
                         onmouseout="checkcolorto2()"
                         >
-                        <i class="far fa-address-card" ></i> Hakkımda</a></td>
+                        <i class="far fa-address-card" ></i><span onclick="hide1()"> Hakkımda</span></a></td>
                     <td class="" style=" height:80px;width:10%;
                     ">
          
@@ -160,247 +160,253 @@
                     </div>
                    
                 </div> 
-                
-               <div class="zerz">
         
-                
-                 <!-- <div class="ara"></div>--> 
-                <div class="zera11" id="xb"> 
-                  <div style="width:90%;margin:0 auto;text-align:left;text-transform:uppercase;margin-top:10px;">  <h6> Yapmiş projeler</h6></div>
-                  
-                    <div class="orta1">
-                        
-                             <div class="scrl1">
-                    
-                                 <div class="elementscrl1"> 
-                                    <hr>
-                                    <div class="carrebig">
-                                        <div class="carretitles">I have developed a website for African Students In Mersin.</div><hr>
-                                   <div class="carre">
-                                          <a href="#"><img  src="assets/img/icons/asamlogoiper.png" width="60px" height="60px"  class="hoverimg" > </a>  
-                                        
-                                   </div>
-                                   <hr>
-                               </div>
-                                 </div> 
-                
-                
-                
-                                 <div class="elementscrl1"> 
-                                    <hr>
-                                    <div class="carrebig">
-                                        <div class="carretitles">I have translated this website into french and english.</div><hr>
-                                   <div class="carre">
-                                    <a href="https://bilim-ve-teknoloji-oyunculari.github.io/fr.html"><img  src="assets/img/icons/bvt.png" width="60px" height="60px" class="hoverimg"  > </a>  
-                                        
-                                   </div>
-                                   <hr>
-                               </div>
-                                 </div> 
-                                 <div class="elementscrl1"> 
-                                    <hr>
-                                    <div class="carrebig">
-                                        <div class="carretitles">I have translated this website into french <br><span style="color:rgb(26, 93, 133)">.</span></div><hr>
-                                   <div class="carre">
-                                    <a href="#"><img  src="assets/img/icons/soocommerce.png"  width="60px" height="60px" class="hoverimg" > </a>  
-                                        
-                                   </div>
-                                   <hr>
-                               </div>
-                                 </div> 
-                                 <div class="elementscrl1"> 
-                                    <hr>
-                                    <div class="carrebig">
-                                        <div class="carretitles">I have translated this website into french and english.</div><hr>
-                                   <div class="carre">
-                                    <a href="#"><img  src="assets/img/icons/piperail.png" alt="Piperailtrolley" width="60px" height="60px"   class="hoverimg" > </a>  
-                                        
-                                   </div>
-                                   <hr>
-                               </div>
-                                 </div> 
-                                 <div class="elementscrl1"> 
-                                    <hr>
-                                    <div class="carrebig">
-                                        <div class="carretitles">I have translated this website into english. <br><span style="color:rgb(26, 93, 133)">.</span></div><hr>
-                                   <div class="carre">
-                                    <a href="#"><img  src="assets/img/icons/kiraz.png"  width="60px" height="60px"   class="hoverimg" > </a>  
-                                        
-                                   </div>
-                                   <hr>
-                               </div>
-                                 </div> 
-                
-                
-                                 <div class="elementscrl1"> 
-                                    <hr>
-                                     <div class="carrebig">
-                                         <div class="carretitles">I have translated this website into french and english.</div><hr>
-                                    <div class="carre">
-                                        <a href="#"><img  src="assets/img/icons/afrikamapi.png"  width="60px" height="60px"   class="hoverimg" > </a>  
-                                         
-                                    </div>
-                                </div>
-                                <hr>
-                                </div> 
-                                <div class="elementscrl1"> 
-                                    <hr>
-                                    <div class="carrebig">
-                                        <div class="carretitles">I have translated this website into french and english.</div><hr>
-                                   <div class="carre">
-                                    <a href="#"><img  src="assets/img/icons/ecommerce.png"  width="60px" height="60px"  class="hoverimg" > </a>  
-                                        
-                                   </div>
-                               </div>
-                               <hr>
-                                 </div> 
-                
-                
-                
-                                 <div class="elementscrl1"> 
-                                    <hr>
-                                    <div class="carrebig">
-                                        <div class="carretitles">I have translated this website into french and english.</div><hr>
-                                   <div class="carre">
-                                    <a href="#"><img  src="assets/img/icons/asamlogoiper.png"  width="60px" height="60px"  class="hoverimg" > </a>  
-                                        
-                                   </div>
-                               </div>
-                               <hr>
-                                 </div> 
-                
-                
-                                 <div class="elementscrl1"> 
-                                     <hr>
-                                     <div class="carrebig">
-                                         <div class="carretitles">I have translated this website into french and english.</div><hr>
-                                    <div class="carre">
-                                        <a href="#"><img  src="assets/img/icons/asamlogoiper.png"  width="60px" height="60px"   class="hoverimg" > </a>  
-                                       
-                                    </div>
-                                    <hr>
-                                </div>
-                                
-                                
-                                
-                
-                                </div> 
-                                
-                </div>
-                </div>
-                
-                </div>
-                
-            </div>
-        <span id="applyIt" style="color:rgb(255, 255, 255)">.</span>
-        <br><br>
-        <div class="flo"></div>
-        
-        <div class="upformulaire">
-            <br>
-            <h6 style=" width:90%;
-            margin:0 auto;text-transform:uppercase;"> Iletişim</h6>
-            <br>
-        <div class="formulaire">
-            <form>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputEmail4">Isim</label>
-                    <input type="text" class="form-control" id="inputEmail4">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputPassword4">Soyisim</label>
-                    <input type="text" class="form-control" id="inputPassword4">
-                  </div>
-                </div>
-                
-                <div class="form-row">
-                <div class="form-group col-md-3">
-                  <label for="inputAddress2">Email</label>
-                  <input type="email" class="form-control" id="inputAddress2" placeholder="freelance@masaakistephane.com">
-                </div>
-                <div class="form-group col-md-3">
-                    <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                      <option selected> Tercüme Hizmeti</option>
-                      <option> Website Yazilim Hizmeti </option>
-                      <option> SEO Kopyasi  </option>
+                <div id="ik">
+                    <div class="zerz">
+             
                      
-                    </select>
-                  </div>
-                  <div class="form-group col-md-3">
-                    <label for="inputCity">Sirket Ismi</label>
-                    <input type="text" class="form-control" id="inputCity">
-                  </div>
-                  <div class="form-group col-md-3">
-                    <label for="inputCity">Telefon Numaraniz</label>
-                    <input type="text" class="form-control" id="inputCity">
-                  </div>
-                </div>
-                
-                <div class="form-group">
-                    <label for="inputAddress">Mesaj</label>
-                    <input type="textarea" class="form-control" id="inputAddress" placeholder="Bir Mesaj Bırak">
-                  </div>
+                      <!-- <div class="ara"></div>--> 
+                     <div class="zera11" id="xb"> 
+                       <div style="width:90%;margin:0 auto;text-align:left;text-transform:uppercase;margin-top:10px;">  <h6> Yapmiş projeler</h6></div>
+                       
+                         <div class="orta1">
+                             
+                                  <div class="scrl1">
+                         
+                                      <div class="elementscrl1"> 
+                                         <hr>
+                                         <div class="carrebig">
+                                             <div class="carretitles">I have developed a website for African Students In Mersin.</div><hr>
+                                        <div class="carre">
+                                               <a href="#"><img  src="assets/img/icons/asamlogoiper.png" width="60px" height="60px"  class="hoverimg" > </a>  
+                                             
+                                        </div>
+                                        <hr>
+                                    </div>
+                                      </div> 
+                     
+                     
+                     
+                                      <div class="elementscrl1"> 
+                                         <hr>
+                                         <div class="carrebig">
+                                             <div class="carretitles">I have translated this website into french and english.</div><hr>
+                                        <div class="carre">
+                                         <a href="https://bilim-ve-teknoloji-oyunculari.github.io/fr.html"><img  src="assets/img/icons/bvt.png" width="60px" height="60px" class="hoverimg"  > </a>  
+                                             
+                                        </div>
+                                        <hr>
+                                    </div>
+                                      </div> 
+                                      <div class="elementscrl1"> 
+                                         <hr>
+                                         <div class="carrebig">
+                                             <div class="carretitles">I have translated this website into french <br><span style="color:rgb(26, 93, 133)">.</span></div><hr>
+                                        <div class="carre">
+                                         <a href="#"><img  src="assets/img/icons/soocommerce.png"  width="60px" height="60px" class="hoverimg" > </a>  
+                                             
+                                        </div>
+                                        <hr>
+                                    </div>
+                                      </div> 
+                                      <div class="elementscrl1"> 
+                                         <hr>
+                                         <div class="carrebig">
+                                             <div class="carretitles">I have translated this website into french and english.</div><hr>
+                                        <div class="carre">
+                                         <a href="#"><img  src="assets/img/icons/piperail.png" alt="Piperailtrolley" width="60px" height="60px"   class="hoverimg" > </a>  
+                                             
+                                        </div>
+                                        <hr>
+                                    </div>
+                                      </div> 
+                                      <div class="elementscrl1"> 
+                                         <hr>
+                                         <div class="carrebig">
+                                             <div class="carretitles">I have translated this website into english. <br><span style="color:rgb(26, 93, 133)">.</span></div><hr>
+                                        <div class="carre">
+                                         <a href="#"><img  src="assets/img/icons/kiraz.png"  width="60px" height="60px"   class="hoverimg" > </a>  
+                                             
+                                        </div>
+                                        <hr>
+                                    </div>
+                                      </div> 
+                     
+                     
+                                      <div class="elementscrl1"> 
+                                         <hr>
+                                          <div class="carrebig">
+                                              <div class="carretitles">I have translated this website into french and english.</div><hr>
+                                         <div class="carre">
+                                             <a href="#"><img  src="assets/img/icons/afrikamapi.png"  width="60px" height="60px"   class="hoverimg" > </a>  
+                                              
+                                         </div>
+                                     </div>
+                                     <hr>
+                                     </div> 
+                                     <div class="elementscrl1"> 
+                                         <hr>
+                                         <div class="carrebig">
+                                             <div class="carretitles">I have translated this website into french and english.</div><hr>
+                                        <div class="carre">
+                                         <a href="#"><img  src="assets/img/icons/ecommerce.png"  width="60px" height="60px"  class="hoverimg" > </a>  
+                                             
+                                        </div>
+                                    </div>
+                                    <hr>
+                                      </div> 
+                     
+                     
+                     
+                                      <div class="elementscrl1"> 
+                                         <hr>
+                                         <div class="carrebig">
+                                             <div class="carretitles">I have translated this website into french and english.</div><hr>
+                                        <div class="carre">
+                                         <a href="#"><img  src="assets/img/icons/asamlogoiper.png"  width="60px" height="60px"  class="hoverimg" > </a>  
+                                             
+                                        </div>
+                                    </div>
+                                    <hr>
+                                      </div> 
+                     
+                     
+                                      <div class="elementscrl1"> 
+                                          <hr>
+                                          <div class="carrebig">
+                                              <div class="carretitles">I have translated this website into french and english.</div><hr>
+                                         <div class="carre">
+                                             <a href="#"><img  src="assets/img/icons/asamlogoiper.png"  width="60px" height="60px"   class="hoverimg" > </a>  
+                                            
+                                         </div>
+                                         <hr>
+                                     </div>
+                                     
+                                     
+                                     
+                     
+                                     </div> 
+                                     
+                     </div>
+                     </div>
+                     
+                     </div>
+                     
+                 </div>
+                 
+             <span id="applyIt" style="color:rgb(255, 255, 255)">.</span>
+             <br><br>
+             <div class="flo" ></div>
+             
+             <div class="upformulaire">
+                 <br>
+                 <h6 style=" width:90%;
+                 margin:0 auto;text-transform:uppercase;"> Iletişim</h6>
+                 <br>
+             <div class="formulaire">
+                 <form>
+                     <div class="form-row">
+                       <div class="form-group col-md-6">
+                         <label for="inputEmail4">Isim</label>
+                         <input type="text" class="form-control" id="inputEmail4">
+                       </div>
+                       <div class="form-group col-md-6">
+                         <label for="inputPassword4">Soyisim</label>
+                         <input type="text" class="form-control" id="inputPassword4">
+                       </div>
+                     </div>
+                     
+                     <div class="form-row">
+                     <div class="form-group col-md-3">
+                       <label for="inputAddress2">Email</label>
+                       <input type="email" class="form-control" id="inputAddress2" placeholder="freelance@masaakistephane.com">
+                     </div>
+                     <div class="form-group col-md-3">
+                         <label for="inputState">State</label>
+                         <select id="inputState" class="form-control">
+                           <option selected> Tercüme Hizmeti</option>
+                           <option> Website Yazilim Hizmeti </option>
+                           <option> SEO Kopyasi  </option>
+                          
+                         </select>
+                       </div>
+                       <div class="form-group col-md-3">
+                         <label for="inputCity">Sirket Ismi</label>
+                         <input type="text" class="form-control" id="inputCity">
+                       </div>
+                       <div class="form-group col-md-3">
+                         <label for="inputCity">Telefon Numaraniz</label>
+                         <input type="text" class="form-control" id="inputCity">
+                       </div>
+                     </div>
+                     
+                     <div class="form-group">
+                         <label for="inputAddress">Mesaj</label>
+                         <input type="textarea" class="form-control" id="inputAddress" placeholder="Bir Mesaj Bırak">
+                       </div>
+                    
+                    <div class="butdivv" type="submi"> <button class="">GÖNDER</button></div>
+                     
+                   </form>
+             </div>
+             </div>
+             </div>
+             </div>
+                  <footer style=" position: -webkit-sticky;;"> 
+                    
+                         <div class="flex container">
+                             <div class="footer-about">
+                                 <h5>About Stated</h5>
+                                 <p class="moreknow" onclick="showeventa()"> Bir serbest çalışan olarak, web tasarımı ve çeviri alanında ilerliyorum;
+                                     şirketlerin web sitelerinin trafikleriri artırmasına da yardımcı oluyorum.</p>
+                             </div>
+                 
+                             <div class="footer-quick-links">
+                                 <h6 style="color:white"> Hızlı Erişimler</h6>
+                                 <ul>
+                                     <li><a href="#zedkass"
+                                         onmouseover="turncolorto2()"
+                                 onmouseout="checkcolorto2()"
+                                 onclick="Showeventt()" id="er2">Hakkımda</a></li>
+             
+                                     <li><a href="#srvc" onclick="showeventa()"
+                                         onmouseover="turncolorto()"
+                                         onmouseout="checkcolorto()">Hizmetler</a></li>
+             
+                                     <li><a href="#zedkas"
+                                         onmouseover="turncolorto1()"
+                                 onmouseout="checkcolorto1()"
+                                 onclick="showeventb()" id="er1">Blog</a></li>
+                                     <li><a href="#">Projelerim</a></li>
+                                 </ul>
+                             </div>
+                 
+                             <div class="footer-subscribe">
+                                 <h6 style="color:white">Subscribe to My Newsletter</h6>
+                                 
+                                 <div id="subscribe-container">
+                                     <input type="text" placeholder="Enter Email" />
+                                     <button class="right-rounded">Gönder</button>
+                                     
+                                 </div>
+                                 
+                                  <br>
+                                 <h6 class="follow-us" style="color:white">Takıp Et</h6>
+                                 <div class="socialM">
+                                 
+                                     <a href="https://github.com/Stephane226">  <button type="button" class="btn btn-git" style="background-color:rgb(94, 85, 85);font-size:12px;color:white"><i class="fab fa-github pr-1"></i> Github</button></a>
+                                         <a href="https://tr.linkedin.com/in/masaaki-stephane-benon-617478181"> <button type="button" class="btn btn-li"  style="background-color:rgb(47, 167, 247);font-size:12px;color:white"><i class="fab fa-linkedin-in pr-1"></i> linkedin</button></a>
+                                     <button type="button" class="btn btn-ins"  style="background-color:rgb(153, 70, 97);font-size:12px;color:white"><i class="fab fa-instagram pr-1"></i> instagram</button>
+             
+                                 
+                                 </div>
+                             </div>
+                         </div>
+                       
+                     </footer>
+                    
                
-               <div class="butdivv" type="submi"> <button class="">GÖNDER</button></div>
-                
-              </form>
-        </div>
-        </div>
-             <footer style=" position: -webkit-sticky;;"> 
-               
-                    <div class="flex container">
-                        <div class="footer-about">
-                            <h5>About Stated</h5>
-                            <p class="moreknow" onclick="showeventa()"> Bir serbest çalışan olarak, web tasarımı ve çeviri alanında ilerliyorum;
-                                şirketlerin web sitelerinin trafikleriri artırmasına da yardımcı oluyorum.</p>
-                        </div>
-            
-                        <div class="footer-quick-links">
-                            <h6 style="color:white"> Hızlı Erişimler</h6>
-                            <ul>
-                                <li><a href="#zedkass"
-                                    onmouseover="turncolorto2()"
-                            onmouseout="checkcolorto2()"
-                            onclick="Showeventt()" id="er2">Hakkımda</a></li>
-        
-                                <li><a href="#srvc" onclick="showeventa()"
-                                    onmouseover="turncolorto()"
-                                    onmouseout="checkcolorto()">Hizmetler</a></li>
-        
-                                <li><a href="#zedkas"
-                                    onmouseover="turncolorto1()"
-                            onmouseout="checkcolorto1()"
-                            onclick="showeventb()" id="er1">Blog</a></li>
-                                <li><a href="#">Projelerim</a></li>
-                            </ul>
-                        </div>
-            
-                        <div class="footer-subscribe">
-                            <h6 style="color:white">Subscribe to My Newsletter</h6>
-                            
-                            <div id="subscribe-container">
-                                <input type="text" placeholder="Enter Email" />
-                                <button class="right-rounded">Gönder</button>
-                                
-                            </div>
-                            
-                             <br>
-                            <h6 class="follow-us" style="color:white">Takıp Et</h6>
-                            <div class="socialM">
-                            
-                                <a href="https://github.com/Stephane226">  <button type="button" class="btn btn-git" style="background-color:rgb(94, 85, 85);font-size:12px;color:white"><i class="fab fa-github pr-1"></i> Github</button></a>
-                                    <a href="https://tr.linkedin.com/in/masaaki-stephane-benon-617478181"> <button type="button" class="btn btn-li"  style="background-color:rgb(47, 167, 247);font-size:12px;color:white"><i class="fab fa-linkedin-in pr-1"></i> linkedin</button></a>
-                                <button type="button" class="btn btn-ins"  style="background-color:rgb(153, 70, 97);font-size:12px;color:white"><i class="fab fa-instagram pr-1"></i> instagram</button>
-        
-                            
-                            </div>
-                        </div>
-                    </div>
-                  
-                </footer>
-                <div style="background-color:rgb(110, 110, 110) ;height:25px;width:100%;font-size:12px;text-align:center;border-bottom:1px solid #777;color:whitesmoke">
+                <div style="background-color:rgb(94, 85, 85) ;height:25px;width:100%;font-size:12px;text-align:center;border-bottom:1px solid #777;color:whitesmoke">
                     Copyright &copy; 2019 Tous Droits Réservés|| <span style="font-weight:bold"> MASAAKI.STEPHANE</span>
                 </div>
         

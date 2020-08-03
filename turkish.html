@@ -29,24 +29,25 @@
     <table>
         <tr>
             <td class="" style=" height:75px;width:30%;">
+                
                  <a href="#srvc" style="text-decoration:none;font-size:17px;color:rgb(255, 255, 255)" id="er"
                 onclick="showeventa()"
                 onmouseover="turncolorto()"
                 onmouseout="checkcolorto()">
 
-                <i class="fab fa-steam-symbol"></i> Hizmetler
+                <i class="fab fa-steam-symbol"></i><span onclick="sho1()">Hizmetler</span> 
                  </a></td>
             <td class=""  style=" height:75px;width:30%;
             "><a href="#zedkas" style="text-decoration:none;font-size:17px;color:rgb(255, 255, 255)" onclick="showeventb()" id="er1"
                 onmouseover="turncolorto1()"
                 onmouseout="checkcolorto1()">
-                <i class="fas fa-caret-down"></i> Blog </a></td>
+                <i class="fas fa-caret-down"></i> <span onclick="hide1()"> Blog </span></a></td>
             <td class="" style=" height:75px;width:30%;
            "><a href="#zedkass" style="text-decoration:none;font-size:17px;color:rgb(255, 255, 255)" onclick="Showeventt()" id="er2"
                 onmouseover="turncolorto2()"
                 onmouseout="checkcolorto2()"
                 >
-                <i class="far fa-address-card" ></i> Hakkımda</a></td>
+                <i class="far fa-address-card" ></i><span onclick="hide1()"> Hakkımda</span></a></td>
             <td class="" style=" height:80px;width:10%;
             ">
  
@@ -59,9 +60,9 @@
                         <li><b style="color:white">Dil</b> <i class="fa fa-angle-down" aria-hidden="true"style="color:white "></i>
                           <div class="triangle"></div>
                           <ul>
-                            <li><div id="france"></div></i> <img src="fr.png" width="15px" height="14px" alt=""> <span class="active" ><a href="french.html" style="font-size:14px; text-decoration:none;list-style: none;color:#333">Fransizca</a></span></a></li>
-                            <li><div id="germany"></div></i> <img src="en.png" width="20px" height="14px" alt=""> <span  ><a href="index.html" style="font-size:14px; text-decoration:none;list-style: none;color:#333">Ingilizce</a></span></a></li>
-                            <li><div id="germany"></div></i><img src="tr.png" width="20px" height="14px" alt=""><span  ><a href="turkish.html" style="font-size:14px; text-decoration:none;list-style: none;color:#333">Turkce</a></span></a></li>
+                            <li><div id="france"></div></i> <img src="fr.png" width="15px" height="14px" alt=""> <span class="active" ><a href="french.html" style="font-size:14px; text-decoration:none;list-style: none;color:#183153">Fransizca</a></span></a></li>
+                            <li><div id="germany"></div></i> <img src="en.png" width="20px" height="14px" alt=""> <span  ><a href="index.html" style="font-size:14px; text-decoration:none;list-style: none;color:#183153">Ingilizce</a></span></a></li>
+                            <li><div id="germany"></div></i><img src="tr.png" width="20px" height="14px" alt=""><span  ><a href="turkish.html" style="font-size:14px; text-decoration:none;list-style: none;color:#183153">Turkce</a></span></a></li>
                           </ul>
                         </li>
                       </ul>
@@ -99,10 +100,10 @@
                     PoliLingua specializes in translation, localization and managed
                      language solutions for clients both large and small, from corporate,
                       government and private sectors. We’re happy to tr</p>
-                      <button style="background-color:rgb(48, 49, 49);line-height:10px;color:rgb(255, 255, 255);width:170px;margin-right:5px;font-size:15px;
+                      <button style="background-color:#183153;line-height:10px;color:rgb(255, 255, 255);width:170px;margin-right:5px;font-size:15px;
                       height:40px;border-radius:6px;box-shadow:0 5px 10px 0 rgba(223, 225, 228, 0.5);border:none;text-transform:uppercase;font-weight:bold">Free Quote</button>   
 
-<button style="background-color:#333;line-height:10px;color:rgb(255, 255, 255);width:170px;font-size:15px;
+<button style="background-color:#183153;line-height:10px;color:rgb(255, 255, 255);width:170px;font-size:15px;
 height:40px;border-radius:6px;box-shadow:0 5px 10px 0 rgba(223, 225, 228, 0.5);border:none;text-transform:uppercase;font-weight:bold">Start It</button> 
 </div>
 
@@ -117,13 +118,14 @@ height:40px;border-radius:6px;box-shadow:0 5px 10px 0 rgba(223, 225, 228, 0.5);b
         <div class="welcome">
             <table style="width:90%;text-align:center;margin:0 auto">
                 <tr style="padding: 14px;">
-                    <td style="width:30%"><i class="fas fa-business-time" style="font-size:40px;"></i><p>Holy olan  </p></td>
+                    <td style="width:30%"><i class="fas fa-business-time" style="font-size:40px;"></i><p >Holy olan  </p></td>
                     <td style="width:30%"><i class="fas fa-user-shield" style="font-size:40px;"></i><p>Tercümeniz</p></td>
                     <td style="width:30%"><i class="fas fa-user-graduate" style="font-size:40px;"></i><p>sunabilmek </p></td>
                     
                  </tr>
             </table>
              </div>
+           
         <div class="segondpart">
           
            
@@ -160,7 +162,7 @@ height:40px;border-radius:6px;box-shadow:0 5px 10px 0 rgba(223, 225, 228, 0.5);b
             </div>
            
         </div> 
-        
+        <div id="ik">
        <div class="zerz">
 
         
@@ -292,9 +294,10 @@ height:40px;border-radius:6px;box-shadow:0 5px 10px 0 rgba(223, 225, 228, 0.5);b
         </div>
         
     </div>
+    
 <span id="applyIt" style="color:rgb(255, 255, 255)">.</span>
 <br><br>
-<div class="flo"></div>
+<div class="flo" ></div>
 
 <div class="upformulaire">
     <br>
@@ -346,6 +349,8 @@ height:40px;border-radius:6px;box-shadow:0 5px 10px 0 rgba(223, 225, 228, 0.5);b
        <div class="butdivv" type="submi"> <button class="">GÖNDER</button></div>
         
       </form>
+</div>
+</div>
 </div>
 </div>
      <footer style=" position: -webkit-sticky;;"> 
@@ -400,7 +405,7 @@ height:40px;border-radius:6px;box-shadow:0 5px 10px 0 rgba(223, 225, 228, 0.5);b
             </div>
           
         </footer>
-        <div style="background-color:rgb(110, 110, 110) ;height:25px;width:100%;font-size:12px;text-align:center;border-bottom:1px solid #777;color:whitesmoke">
+        <div style="background-color:#333 ;height:25px;width:100%;font-size:12px;text-align:center;border-bottom:1px solid #777;color:whitesmoke">
             Copyright &copy; 2019 Tous Droits Réservés|| <span style="font-weight:bold"> MASAAKI.STEPHANE</span>
         </div>
 
