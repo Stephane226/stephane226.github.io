@@ -307,10 +307,11 @@ footer .footer-quick-links {
 .moreknow:hover{
     color:rgb(233, 229, 229);
     cursor:pointer;
-    font-size:15px;
+    font-size:17px;
 }
 .moreknow{
-    color:#777;
+    color:rgb(165, 160, 160);
+    font-size:15px;
 }
 
 
