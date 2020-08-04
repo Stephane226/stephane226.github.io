@@ -514,7 +514,7 @@ footer small a:hover {
     }
 }
 .butdiv button{
-    width:75px;
+    width:auto;
     height:40px;
   
     background-color:#183153;
@@ -590,7 +590,7 @@ zerz{
     color:black;
 }
 .orta2{
-    margin-top:-51px;
+    margin-top:-49px;
 }
 
 .scrl1{
