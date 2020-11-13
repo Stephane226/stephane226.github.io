@@ -15,6 +15,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162017066-2"></script>
 <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -334,8 +335,8 @@
                  <form>
                      <div class="form-row">
                        <div class="form-group col-md-6">
-                         <label for="inputEmail4">Name</label>
-                         <input type="text" class="form-control" id="inputEmail4">
+                         <label for="nameV">Name</label>
+                         <input type="text" class="form-control" id="nameV">
                        </div>
                        <div class="form-group col-md-6">
                          <label for="inputPassword4">Surname</label>
@@ -372,7 +373,7 @@
                          <input type="textarea" class="form-control" id="inputAddress" placeholder="Bir Mesaj Bırak">
                        </div>
                     
-                    <div class="butdivv" type="submi"> <button class="">Send</button></div>
+                    <div class="butdivv" type="submi"> <button class="" id="submt" onclick ="sendForum()">Send</button></div>
                      
                    </form>
              </div>
@@ -417,7 +418,7 @@
                                  
                                  <div id="subscribe-container">
                                      <input type="text" placeholder="Enter Email" />
-                                     <button class="right-rounded">Send</button>
+                                     <button class="right-rounded" >Send</button>
                                      
                                  </div>
                                  
@@ -443,9 +444,10 @@
         
                   
                 <script src='assets/js/index.js'></script>
-                
+                <script src="assets/js/disc.js"></script>
             </body>
    <!-- <body>
+       <script src="disc.js"></script>
 
         
         <div class="navbars">

@@ -75,3 +75,8 @@ function turncolorto2(){
                         document.getElementById('interbord2').style.backgroundColor = ''
                         document.getElementById('er2').style.color = 'rgb(195, 212, 212)' 
             }
+
+
+
+
+console.log("fjhkhj")
